@@ -1,5 +1,9 @@
 # EFO - embeddings
 
+**Embeddings for the EFO_OT_slim are in the asset release of this repo**
+
+Following steps can be used to calculate embeddings on other ontologies/reproduce obtained results.
+
 ## Reproduce the environment 
 
 (Steps for Linux, if running in Windows: use WSL)
