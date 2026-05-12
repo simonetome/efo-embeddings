@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     "ipykernel>=6.29.5",
-    "jupyter>=1.1.1",
+    "owlready2==0.45",
     "owl2vec-star>=0.2.0",
     "polars>=1.8.2",
     "pyarrow>=17.0.0",
