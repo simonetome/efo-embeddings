@@ -24,13 +24,15 @@ conda activate owl2vec
 ```
 sh scripts/1_get_data.sh
 uv run python scripts/2_get_punkt.py
+uv run python scripts/3_extract_entities.py
 ```
 
-## Calculate embeddings
+## Calculate and extract embeddings (in output folder)
 Simply run:
 
 ```
-uv run owl2vec_star standalone --config_file default.cfg
+sh scripts/4_train.sh
+uv run python scripts/5_extract_embeddings.py
 ```
 
 Embeddings are in the embeddings folder, the notebook in the `notebooks` folder shows how to manipulate them to compute similarities.
