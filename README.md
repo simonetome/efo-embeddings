@@ -35,5 +35,5 @@ sh scripts/4_train.sh
 uv run python scripts/5_extract_embeddings.py
 ```
 
-Embeddings are in the embeddings folder, the notebook in the `notebooks` folder shows how to manipulate them to compute similarities.
+Embeddings are in the `embeddings` folder.
 
